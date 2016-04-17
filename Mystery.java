@@ -1,5 +1,3 @@
-package it.whats;
-
 public class Mystery {
     private boolean doesItWork;
     public Mystery() {

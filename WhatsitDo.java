@@ -1,5 +1,3 @@
-package it.whats;
-
 public class WhatsitDo {
     private int n;
     public WhatsitDo(int a) {
@@ -9,7 +7,7 @@ public class WhatsitDo {
         return n;
     }
     public int whatIsIt() {
-        Mystery whatsItDo = Mystery.unknown();
+        Mystery whatsItDo = WhatIsThis.whatIsThat();
         if(whatsItDo.isItTrue(5))
             return 1;
         else

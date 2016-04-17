@@ -1,5 +1,3 @@
-package it.whats;
-
 public class WhatIsIt {
     public static int recur(int x) {
         int a = ((int)(Math.random() * 5));

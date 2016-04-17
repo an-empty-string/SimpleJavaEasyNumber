@@ -1,5 +1,3 @@
-package its.whats;
-
 public class Recur {
     public static void recur(int whatsItDo) {
         recurX(false, whatsItDo); // recurse

@@ -1,8 +1,6 @@
-package it.whats;
-
 public class WhatsitDoLauncher {
     public static void main(String[] args) {
-        WhatsitDo x = new WhatsitDo(1);
+        WhatsitDo x = WhatIsThis.whatIsThis();
         System.out.println(x.whatIsIt());
     }
 }
